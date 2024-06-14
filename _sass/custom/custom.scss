@@ -1,4 +1,8 @@
 .main-header {
+  height: auto;
+  background-color: transparent;
+  border-bottom: none;
+
   @media (max-width: 50rem) {
     display: none !important;   
   }
