@@ -1,5 +1,11 @@
+.main-header {
+  @media (max-width: 50rem) {
+    display: none !important;   
+  }
+}
+
 .side-bar {
   @media (min-width: 50rem) {
-    display: none;   
+    display: none !important;   
   }
 }
