@@ -32,7 +32,7 @@
 	/* Intro Box */
 	
 	#intro-box h3 {
-		font-size: 28px;	
+		font-size: 28px !important;	
 	}
 	
 	/* Team */
