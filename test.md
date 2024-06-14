@@ -1,6 +1,6 @@
 ---
 title: Test
-layout: minimal
+layout: home
 ---
 
 <div class="content-container">
