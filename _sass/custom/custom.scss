@@ -1,12 +1,29 @@
+.icon {
+  color: inherit;
+}
+
 .main-header {
   height: auto;
   background-color: transparent;
   border-bottom: none;
-
-  // @media (max-width: 50rem) {
-  //   display: none !important;   
-  // }
 }
+
+#intro-box h3 {
+  @media (min-width: 50rem) {
+    font-size: 28px !important;	
+  }
+}
+
+
+
+// Sidebar overrides testing for later
+// ================================
+
+// .main-header {
+//   @media (max-width: 50rem) {
+//     display: none !important;   
+//   }
+// }
 
 // .side-bar {
 //   background-color: inherit;
@@ -14,10 +31,6 @@
 //     display: none !important;   
 //   }
 // }
-
-.icon {
-  color: inherit;
-}
 
 // .site-nav {
 //   @media (min-width: 50rem) {
@@ -49,4 +62,5 @@
 //       }
 //     }
 //   }
+
 // }
