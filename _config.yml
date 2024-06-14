@@ -5,3 +5,5 @@ theme: just-the-docs
 url: https://github.com/asmithdigital/asmithdigital24
 
 search_enabled: false
+
+nav_enabled: false
