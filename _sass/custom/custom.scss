@@ -9,7 +9,7 @@
 }
 
 .side-bar {
-  background-color: none;
+  background-color: inherit;
   @media (min-width: 50rem) {
     display: none !important;   
   }
