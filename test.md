@@ -1,6 +1,6 @@
 ---
 title: Test
-layout: home
+layout: full-width
 ---
 
 <div class="content-container">
