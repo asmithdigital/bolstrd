@@ -28,13 +28,14 @@
             {% include components/children_nav.html %}
           {% endif %}
         </main>
-        {% include components/footer.html %}
       </div>
     </div>
     {% if site.search_enabled != false %}
       {% include components/search_footer.html %}
     {% endif %}
   </div>
+
+  {% include components/footer.html %}
 
   {% if site.mermaid %}
     {% include components/mermaid.html %}
