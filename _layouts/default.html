@@ -5,13 +5,6 @@
 <body>
   <a class="skip-to-main" href="#main-content">Skip to main content</a>
   {% include icons/icons.html %}
-  {% if page.nav_enabled == true %}
-    {% include components/sidebar.html %}
-  {% elsif layout.nav_enabled == true and page.nav_enabled == nil %}
-    {% include components/sidebar.html %}
-  {% elsif site.nav_enabled != false and layout.nav_enabled == nil and page.nav_enabled == nil %}
-    {% include components/sidebar.html %}
-  {% endif %}
   <div class="content-container" id="top">
     {% include components/header.html %}
     <div class="main-content-wrap-template">
