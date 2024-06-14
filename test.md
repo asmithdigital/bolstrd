@@ -1,5 +1,6 @@
 ---
-title: Home
+title: Test
+layout: home
 ---
 
 <div class="content-container">
