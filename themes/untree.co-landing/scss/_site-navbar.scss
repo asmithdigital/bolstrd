@@ -81,9 +81,9 @@
 						color: $white!important;
 						background: $primary;
 						border-radius: 30px;
-						&:hover {
+						// &:hover {
 							
-						}
+						// }
 					}
 				}
 				&.active {
@@ -383,9 +383,9 @@
 				line-height: 1;
 				cursor: pointer;
 				transition: .3s all ease;
-				&:hover {
-					// color: $gray-1;
-				}
+				// &:hover {
+				// 	// color: $gray-1;
+				// }
 			}
 		}
 		.site-mobile-menu-logo {
@@ -457,9 +457,9 @@
 			cursor: pointer;
 			border-radius: 50%;
 			border: 1px solid $light;
-			&:hover {
-				// background: $gray-100;
-			}
+			// &:hover {
+			// 	// background: $gray-100;
+			// }
 			&:before {
 				font-size: 14px;
 				z-index: 20;
@@ -627,6 +627,7 @@
 	top: 23px;
 }
 
+
 /* Click */
 .burger.active span {
 	opacity: 0;
@@ -636,12 +637,14 @@
 }
 .burger.active:before {
 	-webkit-transform: rotate(45deg); 
-	-moz-transform: rotate(45deg);  
+	-moz-transform: rotate(45deg);
+	transform: rotate(45deg);  
     filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=5); /*for IE*/
 }
 .burger.active:after {
 	-webkit-transform: rotate(-45deg); 
-	-moz-transform: rotate(-45deg);  
+	-moz-transform: rotate(-45deg); 
+	transform: rotate(-45deg);  
     filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=-5); /*for IE*/
 }
 .burger:focus {

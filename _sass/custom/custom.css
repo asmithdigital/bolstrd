@@ -1,0 +1,21 @@
+.icon {
+  color: inherit;
+}
+
+.main-header {
+  display: block;
+  height: auto;
+  background-color: transparent;
+  border-bottom: none;
+}
+
+@media (min-width: 50rem) {
+  #intro-box h3 {
+    font-size: 28px !important;
+  }
+}
+@media (min-width: 66.5rem) {
+  #intro-box h3 {
+    font-size: 40px !important;
+  }
+}/*# sourceMappingURL=custom.css.map */
