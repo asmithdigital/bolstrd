@@ -151,7 +151,14 @@
                     <!-- ANIMATION CONTAINER -->
                     <div class="animation-container animation-fade-up" data-animation-delay="0">
                        
-                        <p>© 2025 Blostrd.</p>
+                        <p>© <span id="currentYear"></span> Blostrd.</p>
+                       
+                        <script>
+                        document.addEventListener('DOMContentLoaded', function() {
+                         var currentYear = new Date().getFullYear();
+                         document.getElementById('currentYear').textContent = currentYear;
+                        });
+                        </script>
                         
                     </div>
                     <!-- /ANIMATION CONTAINER -->
