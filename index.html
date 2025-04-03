@@ -199,10 +199,10 @@
                <!-- modify this form HTML and place wherever you want your form -->
                         <form id="my-form" action="https://formspree.io/f/xjkyawea" method="POST">
                           <label>Email:</label>
-                          <input type="email" name="email" />
+                          <input type="email" name="email" placeholder="* Enter your Email" onfocus="this.placeholder = ''" onblur="this.placeholder = '* Enter your Email'" class="email form-control" />
                           <label>Message:</label>
-                          <input type="text" name="message" />
-                          <button id="my-form-button">Submit</button>
+                          <input type="text" name="message" placeholder="* Enter your Message" onfocus="this.placeholder = ''" onblur="this.placeholder = '* Enter your Message'" class="email form-control" />
+                          <button id="my-form-button" class="btn btn-primary form-control">Submit<i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
                           <p id="my-form-status"></p>
                         </form>
                         
